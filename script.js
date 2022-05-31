@@ -1,12 +1,6 @@
 let navbar = document.querySelector('.navbar')
 
 
-fasttime.addEventListener('click',()=>{
-    cartjk.classList.remove('cart-item')
-          
-})
-
-
 document.querySelector('#menu-btn').onclick = ()=>{
     navbar.classList.toggle('active')
     cartitem.classList.remove('active')
